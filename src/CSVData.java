@@ -26,5 +26,53 @@ public class CSVData {
 		return null;
 	}
 	
-
+	/***
+	 * returns a row
+	 * @param rowIndex index of the row to return
+	 * @return the row we're returning
+	 */
+	public double[] getRow(int rowIndex) {
+		return null;
+	}
+	
+	public double[] getColumn(int colIndex) {
+		return null;
+	}
+	
+	public double[] getColumn(String name) {
+		return null;
+	}
+	
+	public double[][] getRows(int startIndex, int endIndex) {
+		return null;
+	}
+	
+	public double[][] getRows(int[] rowIndexes) {
+		return null;
+	}
+	
+	public double[][] getColumns(int startIndex, int endIndex) {
+		return null;
+	}
+	
+	public double[][] getColumns(int[] colIndexes) {
+		return null;
+	}
+	
+	public double[][] getColumns(String[] colNames) {
+		return null;
+	}
+	
+	public void setValue(int rowIndex, int colIndex, double newValue) {
+		
+	}
+	
+	public void saveToFile(String filename) {
+		
+	}
 }
+
+
+
+
+
